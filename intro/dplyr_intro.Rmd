@@ -56,8 +56,7 @@ To do this in R without `dplyr` the code is the following:
 ```{r}
 chowVals <- dat[ dat$Diet=="chow", colnames(dat)=="Bodyweight"]
 ```
-
-
+chowVals <- dat[1:12,]$Bodyweight ### may have the same result.
 
 
 
